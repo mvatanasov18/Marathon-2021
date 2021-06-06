@@ -1,0 +1,152 @@
+body {
+    background-image: url("../pictures/background.jpg");
+    background-size: 80%;
+}
+
+#title {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+/* Navbar style */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+/* Links in the navbar */
+
+.navbar a {
+    float: right;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* The first dropdown */
+
+.dropdown1 {
+    float: right;
+    overflow: hidden;
+}
+
+
+/* The second dropdown */
+
+.dropdown2 {
+    float: right;
+    overflow: hidden;
+    margin-right: 45px;
+}
+
+
+/* The dropdown buttons */
+
+.dropdown1 .dropbtn1,
+.dropdown2 .dropbtn2 {
+    background-color: #333;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+
+/* Turns blue color when you hover */
+
+.navbar a:hover,
+.dropdown1:hover .dropbtn1,
+.dropdown2:hover .dropbtn2 {
+    background-color: rgb(23, 0, 53);
+}
+
+
+/* Dropdown content */
+
+.dropdown-content1,
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 8px 8px 8px 4px rgba(71, 70, 70, 0.472);
+}
+
+
+/* Links in the dropdown */
+
+.dropdown-content1 a,
+.dropdown-content2 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content1 a:hover,
+.dropdown-content2 a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown1:hover .dropdown-content1,
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+footer {
+    background: rgb(238, 238, 220);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 25px;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer p {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-column1 {
+    margin-top: 7.5%;
+    margin-bottom: 3%;
+    float: left;
+    margin-left: 24%;
+}
+
+.footer-column2 {
+    margin-top: 3%;
+    float: left;
+    margin-left: 5%;
+}
+
+.footer-column3 {
+    margin-top: 3%;
+    float: left;
+    margin-left: 5%;
+}
+
+.footer-column4 {
+    margin-top: 3%;
+    float: left;
+    margin-left: 5%;
+}
