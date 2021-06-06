@@ -1,0 +1,113 @@
+ body {
+     background-color: #bdd4e7;
+     background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     overflow-x: hidden;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .menu {
+     font-size: 60px;
+     color: black;
+     font-weight: bold;
+     margin-left: 2%;
+     width: 100px;
+     height: 100px;
+     margin-top: 20px;
+     display: inline-block;
+ }
+ 
+ #left {
+     background-color: white;
+     border-radius: 2%;
+     padding: 3%;
+     margin-top: 5%;
+ }
+ 
+ #right {
+     background-color: white;
+     border-radius: 2%;
+     padding: 3%;
+     margin-top: 5%;
+ }
+ 
+ #all {
+     position: relative;
+ }
+ 
+ footer {
+     background: rgb(238, 238, 220);
+     padding: 25px;
+     width: 100%;
+     left: 0;
+     position: absolute;
+ }
+ 
+ footer a {
+     text-decoration: none;
+     font-size: 16px;
+ }
+ 
+ footer p {
+     text-decoration: none;
+     font-size: 20px;
+ }
+ 
+ .footer-column1 {
+     margin-top: 7.5%;
+     margin-bottom: 3%;
+     float: left;
+     margin-left: 24%;
+ }
+ 
+ .footer-column2 {
+     margin-top: 3%;
+     float: left;
+     margin-left: 5%;
+ }
+ 
+ .footer-column3 {
+     margin-top: 3%;
+     float: left;
+     margin-left: 5%;
+ }
+ 
+ .footer-column4 {
+     margin-top: 3%;
+     float: left;
+     margin-left: 5%;
+ }
+ /* responsive style  */
+ 
+ @media (max-width:3000px) {
+     h1 {
+         text-align: center;
+         font-size: 40px;
+     }
+     #left {
+         margin-left: 8%;
+         margin-top: 2%;
+         display: inline-block;
+     }
+     #left img {
+         width: 60%;
+     }
+     #right {
+         margin-left: 8%;
+         margin-bottom: 5%;
+         display: inline-block;
+     }
+     #right img {
+         width: 60%;
+     }
+     #all {
+         column-count: 2;
+     }
+     .bottom-left {
+         margin-top: 10%;
+     }
+ }
