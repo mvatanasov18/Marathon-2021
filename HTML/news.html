@@ -6,17 +6,73 @@
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="../CSS/styleForNews.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
 
     <title>Новини</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="shortcut icon" href="../logo/logoIcon.png">
+
+    <!-- Link for font style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    
-    <!-- Menu button -->
-    <a href="index.html"><span class="menu">&laquo;</span></a>
+
+    <!-- The navbar -->
+
+    <div class="navbar" id="topnav">
+
+        <div class="not-dropdown">
+            <a href="index.html">Начална страница</a>
+            <a href="news.html">Новини</a>
+            <a href="#">Игра</a>
+        </div>
+
+        <!-- First dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">За нас<span>&#x25BC;</span>
+      </button>
+            <div class="dropdown-content">
+                <a href="#">Екип</a>
+                <a href="questions.html">Въпроси</a>
+            </div>
+        </div>
+
+        <!-- Second dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">За местността<span>&#x25BC;</span>
+  </button>
+            <div class="dropdown-content">
+                <a href="#">Водни ресурси и животни</a>
+                <a href="#">Защитени водни животни</a>
+                <a href="#">Защитени водни местности</a>
+            </div>
+        </div>
+
+        <!-- Third dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">Природни обекти<span>&#x25BC;</span>
+      </button>
+            <div class="dropdown-content">
+                <a href="#">Наблюдения</a>
+                <a href="#">Технологични решения</a>
+            </div>
+        </div>
+        <!-- open and close the topnav on small screens -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <script src="../JS/script.js"></script>
+
+
+
 
     <h1>Новини</h1>
 
@@ -26,9 +82,10 @@
 
         <article id="left">
             <h2>Френски експерт изследва рядък вид водно конче в <br> Поморийско езеро </h2>
-            <img src="../pictures/article1.png">
-            <p>Тази седмица международният експерт по водни кончета<br> Филип Ламбер е на посещение в Поморийската лагуна,<br> за да проучва популацията на водното конче – тъмно смарагдово<br> шило (Lestes macrostigma). Видът е застрашен на европейско ниво<br>и
-                почти изчезнал в цяла Европа, но се среща в някои влажни зони<br> по българското Черноморие. <br>
+            <a href="https://www.gramofona.com/priroda/frenski-ekspert-izsledva-ryadak-vid-vodno-konche-v-pomoriysko-ezero" target="_blank">
+                <img src="../../Marathon-2021/pictures/article1.png"></a>
+            <p>Тази седмица международният експерт по водни кончета Филип Ламбер е на посещение в Поморийската лагуна,<br> за да проучва популацията на водното конче – тъмно смарагдово шило (Lestes macrostigma). Видът е застрашен<br> на европейско ниво и
+                почти изчезнал в цяла Европа, но се среща в някои влажни зони по българското Черноморие. <br>
                 <a href="https://www.gramofona.com/priroda/frenski-ekspert-izsledva-ryadak-vid-vodno-konche-v-pomoriysko-ezero" target="_blank">
             Продължете да четете...</a></p>
         </article>
@@ -37,9 +94,10 @@
 
         <article id="right">
             <h2>Живот за Поморийското езеро с нов проект</h2>
-            <img src="../pictures/article2.png">
-            <p>Тригодишен консервационен проект по програма LIFE <br>на Европейската комисия започва в Поморийско езеро.<br> Това съобщават от Фондация „Биоразнообразие“.<br> Проектът обединява нестопанския (две български екологични<br> организации), научния
-                (френска биологична станция) <br>и стопанския (частен бизнес, който оперира в езерото) сектор.<br>
+            <a href="https://www.gramofona.com/priroda/jivot-za-pomoriyskoto-ezero-s-nov-proekt" target="_blank">
+                <img src="../../Marathon-2021/pictures/article2.png"></a>
+            <p>Тригодишен консервационен проект по програма LIFE на Европейската комисия започва в Поморийско езеро.<br> Това съобщават от Фондация „Биоразнообразие“. Проектът обединява нестопанския (две български екологични<br> организации), научния (френска
+                биологична станция) и стопанския (частен бизнес, който оперира в езерото) сектор.<br>
                 <a href="https://www.gramofona.com/priroda/jivot-za-pomoriyskoto-ezero-s-nov-proekt" target="_blank">
             Продължете да четете...</a></p>
         </article>
@@ -48,9 +106,10 @@
 
         <article id="left">
             <h2>Влажните зони в градовете ги правят живи и красиви</h2>
-            <img src="../pictures/article3.png">
-            <p>Във връзка със Световния ден на влажните зони – 2 февруари,<br> екипът на проект "Солта на живота", <br>LIFE+ организира специално събитие в читалище „Хамалогика“.<br> Заповядайте в 19.00 часа на дискусията „Влажните зони в<br> градовете –
-                предизвикателства и възможности. Случаят Бургас.“<br>
+            <a href="https://www.gramofona.com/priroda/vlajnite-zoni-v-cityovete-gi-pravyat-jivi-i-krasivi" target="_blank">
+                <img src="../../Marathon-2021/pictures/article3.png"></a>
+            <p>Във връзка със Световния ден на влажните зони – 2 февруари, екипът на проект "Солта на живота", <br>LIFE+ организира специално събитие в читалище „Хамалогика“. Заповядайте в 19.00 часа на<br> дискусията „Влажните зони в градовете – предизвикателства
+                и възможности. Случаят Бургас.“<br>
                 <a href="https://www.gramofona.com/priroda/vlajnite-zoni-v-cityovete-gi-pravyat-jivi-i-krasivi" target="_blank">
             Продължете да четете...</a></p>
         </article>
@@ -60,9 +119,10 @@
         <article class="bottom-left" id="right">
             <h2>Седем дни 70 доброволци ремонтираха домовете на <br>птиците в Атанасовско езеро
             </h2>
-            <img src="../pictures/article4.png">
-            <p>70 доброволци успяха да ремонтират домовете на птиците <br>в единствената по рода си солена лагуна у нас<br> – Атанасовско езеро по време на 30-та природозащитна<br> бригада на Българското дружество за защита на птиците, <br>провеждаща се
-                край Бургас.<br>
+            <a href="https://www.gramofona.com/priroda/sedem-dni-70-dobrovolci-remontiraha-domovete-na-pticite-v-atanasovsko-ezero" target="_blank">
+                <img src="../../Marathon-2021/pictures/article4.png"></a>
+            <p>70 доброволци успяха да ремонтират домовете на птиците в единствената по рода си солена лагуна у<br> нас – Атанасовско езеро по време на 30-та природозащитна бригада на Българското дружество<br> за защита на птиците, провеждаща се край Бургас.
+                <br>
                 <a href="https://www.gramofona.com/priroda/sedem-dni-70-dobrovolci-remontiraha-domovete-na-pticite-v-atanasovsko-ezero" target="_blank">
                 Продължете да четете...</a></p>
         </article>
@@ -70,32 +130,38 @@
 
     <!-- Footer -->
     <footer>
+        <div id="text-footer">
 
-        <div class="footer-column1">
-            <a href="#">Начална страница</a><br>
-            <a href="#">Новини</a><br>
-            <a href="#">Игра</a><br>
 
-        </div>
+            <p>Съдържание:</p>
+            <a href="#"> Начална страница | </a>
+            <a href="#"> Новини | </a>
+            <a href="#"> Игра  </a>
+            <p>За нас:</p>
+            <a href="#"> Екип | </a>
+            <a href="#" id="bottom-one">Въпроси </a> <br>
+            <br>
 
-        <div class="footer-column2">
-            <p>За местността</p><br>
-            <a href="#">Водни ресурси и животни</a><br>
-            <a href="#">Защитени водни животни</a><br>
-            <a href="#">Защитени водни местности</a><br>
-        </div>
 
-        <div class="footer-column3">
-            <p>Природни обекти</p><br>
-            <a href="#">Наблюдения</a><br>
-            <a href="#">Технологични решения</a><br>
-        </div>
+            <p>За местността:</p>
+            <a href="#">Защитени водни местности | </a>
+            <a href="#">Защитени водни животни | </a>
+            <a href="#">Водни ресурси и животни</a>
+            <p>Природни обекти:</p>
+            <a href="#">Наблюдения |</a>
+            <a href="#" id="bottom-two">Технологични решения </a> <br>
+            <br>
 
-        <div class="footer-column4">
-            <p>Свържете се с нас:</p><br>
-            <a href="#">Тел: 098 888 663</a><br>
+            <p>Свържете се с нас:</p>
+            <a href="#">Тел: 098 888 663</a><br><br>
             <a href="mailto:PIPetkova19@codingburgas.bg">Имейл</a><br>
-        </div>
+            <br>
+
+
+        </div><br>
+
+        <p style="color: rgb(194, 191, 191);" class="credit-symbol">© 2021 Pirates of the Caribbean.</p>
+
     </footer>
 
 </body>
