@@ -1,0 +1,204 @@
+body {
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+form {
+    background-color: rgb(59, 59, 59);
+    color: rgb(207, 204, 204);
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inline-block;
+    margin-left: 33%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form textarea {
+    width: 380px;
+    height: 200px;
+}
+
+::placeholder {
+    color: red;
+}
+
+#submit {
+    float: left;
+    color: rgb(207, 204, 204);
+    padding: 2%;
+    background-color: rgb(59, 59, 59);
+    border: 2px solid rgb(207, 204, 204);
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+#submit :hover {
+    color: rgb(59, 59, 59);
+    background-color: rgb(207, 204, 204);
+    border: 2px solid rgb(59, 59, 59);
+}
+
+#reset {
+    font-size: 18px;
+    float: right;
+    color: rgb(73, 91, 245);
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(59, 59, 59);
+    border: 2px solid rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+#star {
+    color: red;
+    display: inline-block;
+}
+
+form {
+    position: relative;
+}
+
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+}
+
+#credit-symbol {
+    text-align: center;
+}
+
+#submit {
+    float: left;
+    color: rgb(207, 204, 204);
+    padding: 1%;
+    background-color: rgb(59, 59, 59);
+    border: 2px solid rgb(207, 204, 204);
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+#submit:hover {
+    color: rgb(59, 59, 59);
+    background-color: rgb(207, 204, 204);
+    border: 1px solid rgb(59, 59, 59);
+}
+
+
+/* responsive style  */
+
+@media (max-width:3000px) {
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Oswald', sans-serif;
+    }
+    form input {
+        width: 380px;
+        height: 20px;
+    }
+}
+
+@media (max-width:2200px) {
+    form {
+        margin-left: 34%;
+    }
+}
+
+@media (max-width:1600px) {
+    form {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width:960px) {
+    #all {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width:840px) {
+    form {
+        margin-left: 20%;
+    }
+    #all {
+        display: inline-block;
+        column-count: 1;
+        margin-left: 4px;
+    }
+}
+
+@media (max-width:740px) {
+    form {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width:620px) {
+    form {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width:550px) {
+    form {
+        margin-left: 25%;
+    }
+    form input {
+        width: 100px;
+    }
+    form label {
+        font-size: 15px;
+    }
+    form textarea {
+        width: 140px;
+        height: 50px;
+    }
+     ::placeholder {
+        color: red;
+    }
+}
+
+@media (max-width:400px) {
+    form {
+        margin-left: 10%;
+    }
+    form input {
+        width: 100px;
+    }
+    form label {
+        font-size: 15px;
+    }
+    form textarea {
+        width: 140px;
+        height: 50px;
+    }
+     ::placeholder {
+        color: red;
+    }
+}
+
+@media (max-width:330px) {
+    footer {
+        position: absolute;
+        width: 150%;
+    }
+}
