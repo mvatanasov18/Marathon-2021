@@ -33,7 +33,7 @@ a {
 
 /* Responsive style */
 
-@media(max-width:2200px) {
+@media(max-width:3000px) {
     #title {
         margin-top: 18%;
         font-size: 70px;
