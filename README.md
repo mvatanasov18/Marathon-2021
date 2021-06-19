@@ -1,7 +1,7 @@
 # Marathon-2021
 
 
-<img src= "logo/logoReadme.png" width="455">
+<img src= "logo/logoReadme.png" width="955">
 
  
 
