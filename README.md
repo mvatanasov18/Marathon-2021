@@ -18,11 +18,11 @@ You can see our presentation here:
  
 
 •Alexander Hristov - Scrum Trainer <a href="mailto:aihristov18@codingburgas.bg">Send email</a> <br>
-•Martin Atanasov - Designer <a href="mailto:mvatanasov18@codingburgas.bg">Send email</a> <br>
+•Martin Atanasov - Developer Back-end <a href="mailto:mvatanasov18@codingburgas.bg">Send email</a> <br>
 •Petya Petkova - Developer Back-end  <a href="mailto:PIPetkova19@codingburgas.bg">Send email</a> <br>
-•Polya Dimitrova - Designer <a href="mailto:pddimitrova19@codingburgas.bg">Send email</a> <br>
+•Polya Dimitrova - Developer Front-end <a href="mailto:pddimitrova19@codingburgas.bg">Send email</a> <br>
 •David Donchev - Designer <a href="mailto:dndonchev20@codingburgas.bg">Send email</a> <br>
-•Ivaylo Stoyanov - Developer Front-end <a href="mailto:ipstoyanov20@codingburgas.bg">Send email</a> <br> 
+•Ivaylo Stoyanov - Designer <a href="mailto:ipstoyanov20@codingburgas.bg">Send email</a> <br> 
 
  
 
@@ -35,6 +35,7 @@ You can see our presentation here:
 <img src = "https://heliocentrix.co.uk/wp-content/uploads/2020/04/microsoft-teams-logo-png_480-480.png" width = "20">Teams <br>
 <img src = "https://brandslogos.com/wp-content/uploads/thumbs/microsoft-powerpoint-2013-logo-vector.svg" width ="20">PowerPoint <br> 
 <img src = "https://download.logo.wine/logo/Microsoft_Word/Microsoft_Word-Logo.wine.png" width= "30">Word <br>
+<img src = "https://apps-for-pc.com/wp-content/uploads/2020/02/Phonto-For-PC.png" width= "20">Phonto <br>
 
  
 
