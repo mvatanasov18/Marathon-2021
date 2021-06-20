@@ -5,13 +5,13 @@
 
  ---
 
-## Hello, we are Pirates of the Caribbean!
+# Hello, we are Pirates of the Caribbean!
  <br>
 We are making a product about the wetlands in Burgas and the area. <br>
 You can see our presentation here:
 <a href="presentation and documentation/Presentation.pptx" >Presentation</a>
 
-## Table of contents
+# Table of contents
  
 + [Participants](#participants)
 + [Used technologies](#used-technologies)
@@ -19,7 +19,7 @@ You can see our presentation here:
 + [Installation](#installation)
  
 
-# <img src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/273/water-wave_1f30a.png" width = "30"> Participants <a name = "participants"></a>
+## <img src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/273/water-wave_1f30a.png" width = "30"> Participants <a name = "participants"></a>
 
  
 
@@ -32,7 +32,7 @@ You can see our presentation here:
 
  
 
-# <img src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/273/water-wave_1f30a.png" width = "30"> Used technologies <a name = "used-technologies"></a>
+## <img src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/273/water-wave_1f30a.png" width = "30"> Used technologies <a name = "used-technologies"></a>
 
  
 
@@ -45,7 +45,7 @@ You can see our presentation here:
 
  
 
-# <img src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/273/water-wave_1f30a.png" width = "30"> Future ideas <a name = "future-ideas"></a>
+## <img src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/273/water-wave_1f30a.png" width = "30"> Future ideas <a name = "future-ideas"></a>
 
  
 
@@ -53,7 +53,7 @@ You can see our presentation here:
 
  
 
-# <img src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/273/water-wave_1f30a.png" width = "30"> Installation
+## <img src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/273/water-wave_1f30a.png" width = "30"> Installation
 <a name = "installation"></a>
 
 You can download our project from [github](https://github.com/DHGrudov19/CyberFlame.git) by pressing the green clone button.
