@@ -1,0 +1,43 @@
+body{
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+}
+
+.all-news {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.news {
+    background-color: white;
+    border-radius: 2%;
+    padding: 3%;
+    margin-top: 5%;
+    flex-basis: 40%;
+}
+
+.news img {
+    max-width: 60%;
+    max-height: 200px;
+}
+
+.hide {
+    display: none;
+}
+
+.read-more
+{
+    height: 30px;
+    width: 120px;
+    background-color: black;
+    color: yellowgreen;
+    border-radius: 2px;
+    border: 3px solid black;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
