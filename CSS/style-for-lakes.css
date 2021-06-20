@@ -19,16 +19,17 @@ img {
     text-align: center;
     flex-basis: 45%;
     padding: 50px;
-    border-width: 5px;
-    border-style: ridge;
-    border-color: black;
+  
     margin-bottom: 30px;
-    background-image: linear-gradient(315deg, darkgreen, #9CCC65);
+    background-color: white;
+    border-radius: 2%;
+    padding: 3%;
+    margin-top: 5%;
 }
 
 body {
     background-color: #7fcec5;
-    background-image: linear-gradient(to right, #7fcec5 0%, #14557b 74%);
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
 }
 
 .title {
