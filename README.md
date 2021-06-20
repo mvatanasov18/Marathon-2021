@@ -3,10 +3,10 @@
 
 <img src= "logo/logoReadme.png" width="955">
 
- ---
+---
 
 # Hello, we are Pirates of the Caribbean!
- <br>
+<br>
 We are making a product about the wetlands in Burgas and the area. <br>
 You can see our presentation here:
 <a href="presentation and documentation/Presentation.pptx" >Presentation</a>
@@ -21,14 +21,23 @@ You can see our presentation here:
 
 ## <img src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/273/water-wave_1f30a.png" width = "30"> Participants <a name = "participants"></a>
 
- 
+**Alexander Hristov - Scrum Trainer**
+- *Email* : [*AIHristov18@codingburgas.bg*](mailto:AIHristov18@codingburgas.bg)
 
-•Alexander Hristov - Scrum Trainer <a href="mailto:aihristov18@codingburgas.bg">Send email</a> <br>
-•Martin Atanasov - Developer Back-end <a href="mailto:mvatanasov18@codingburgas.bg">Send email</a> <br>
-•Petya Petkova - Developer Back-end  <a href="mailto:PIPetkova19@codingburgas.bg">Send email</a> <br>
-•Polya Dimitrova - Developer Front-end <a href="mailto:pddimitrova19@codingburgas.bg">Send email</a> <br>
-•David Donchev - Designer <a href="mailto:dndonchev20@codingburgas.bg">Send email</a> <br>
-•Ivaylo Stoyanov - Designer <a href="mailto:ipstoyanov20@codingburgas.bg">Send email</a> <br> 
+**Martin Atanasov - Back-end Developer**
+- *Email* : [*MVAtanasov18@codingburgas.bg*](mailto:MVAtanasov18@codingburgas.bg)
+
+**Petya Petkova - Back-end Developer**
+- *Email* : [*PIPetkova19@codingburgas.bg*](mailto:PIPetkova19@codingburgas.bg)
+
+**Polya Dimitrova - Front-end Developer**
+- *Email* : [*PDDimitrova19@codingburgas.bg*](mailto:PDDimitrova19@codingburgas.bg)
+
+**David Donchev - Designer**
+- *Email* : [*DNDonchev20@codingburgas.bg*](mailto:DNDonchev20@codingburgas.bg)
+
+**Ivaylo Stoyanov - Designer**
+- *Email* : [*IPStoyanov20@codingburgas.bg*](mailto:IPStoyanov20@codingburgas.bg)
 
  
 
