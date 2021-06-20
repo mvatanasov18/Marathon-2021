@@ -1,7 +1,6 @@
 body {
     background-color: #bdd4e7;
     background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
-
     overflow-x: hidden;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Oswald', sans-serif;
@@ -12,7 +11,6 @@ body {
 
 a {
     text-decoration: none;
-    
 }
 
 footer a {
@@ -33,7 +31,7 @@ p {
 
 .all-news {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     flex-basis: 45px;
     flex-wrap: wrap;
 }
@@ -53,21 +51,21 @@ h1 {
     font-family: 'Oswald', sans-serif;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .all-news {
         flex-direction: column;
     }
 }
 
-.news-image
-{
+.news-image {
     max-height: 200px;
     max-width: 500px;
-    
 }
+
 .hide {
     display: none;
 }
+
 
 /* use this stylesheet globally */
 
@@ -75,7 +73,9 @@ img {
     max-width: 100%;
 }
 
+
 /* Added 90% footer fix */
+
 * {
     box-sizing: border-box;
 }
@@ -88,14 +88,14 @@ a {
     color: white;
 }
 
-.read-more
-{
+.read-more {
     width: 120px;
     background-color: black;
     color: whitesmoke;
     border-radius: 2px;
     border: 3px solid black;
 }
+
 
 /* Default color and font style for the nav bar */
 
@@ -196,4 +196,3 @@ a {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
