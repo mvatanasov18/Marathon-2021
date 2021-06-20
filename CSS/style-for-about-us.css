@@ -36,13 +36,11 @@ body {
 }
 
 #title {
+    text-align: center;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     color: white;
-    text-align: center;
-    margin-top: 10%;
-    position: relative;
     letter-spacing: 10px;
     text-shadow: 4px 4px #27262685;
 }
