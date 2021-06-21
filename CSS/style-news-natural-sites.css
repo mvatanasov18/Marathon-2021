@@ -8,8 +8,9 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-
-/* Links */
+#all {
+    margin-right: 3.5%;
+}
 
 a {
     text-decoration: none;
