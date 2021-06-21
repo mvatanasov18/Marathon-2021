@@ -10,15 +10,16 @@ body {
 
 form {
     background-color: rgb(59, 59, 59);
-    color: rgb(207, 204, 204);
+    color: rgb(255, 255, 255);
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 2%;
     padding-bottom: 2%;
     display: inline-block;
-    margin-left: 33%;
+    margin-left: 30%;
     margin-top: 2%;
     text-align: center;
+    box-shadow: 15px 15px#5252527a;
 }
 
 form label {
@@ -26,7 +27,8 @@ form label {
 }
 
 form textarea {
-    width: 380px;
+    border-radius: 5px;
+    width: 480px;
     height: 200px;
 }
 
@@ -42,6 +44,7 @@ form textarea {
     border: 2px solid rgb(207, 204, 204);
     font-family: 'Libre Baskerville', serif;
     font-family: 'Oswald', sans-serif;
+    font-size: 15px;
 }
 
 #submit :hover {
@@ -68,6 +71,11 @@ form textarea {
 
 form {
     position: relative;
+}
+
+.text-form {
+    text-align: left;
+    color: rgb(207, 204, 204);
 }
 
 
@@ -112,14 +120,27 @@ footer a {
         font-family: 'Oswald', sans-serif;
     }
     form input {
-        width: 380px;
-        height: 20px;
+        width: 480px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    form input:hover {
+        border-bottom: 5px solid #686ae7;
+        height: 40px;
+        width: 500px;
+        transition: ease 0.9s;
+    }
+    form textarea:hover {
+        border-bottom: 5px solid #686ae7;
+        width: 500px;
+        height: 220px;
+        transition: ease 0.9s;
     }
 }
 
 @media (max-width:2300px) {
     form {
-        margin-left: 34%;
+        margin-left: 30%;
     }
 }
 
