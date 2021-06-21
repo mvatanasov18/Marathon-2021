@@ -144,15 +144,47 @@ footer a {
     }
 }
 
-@media (max-width:1600px) {
+@media (max-width:2210px) {
+    form {
+        margin-left: 32%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1990px) {
     form {
         margin-left: 30%;
     }
 }
 
-@media (max-width:1100px) {
+@media (max-width:1700px) {
+    form {
+        margin-left: 28%;
+    }
+}
+
+@media (max-width:1400px) {
     form {
         margin-left: 25%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width:1200px) {
+    form {
+        margin-left: 23%;
+    }
+}
+
+@media (max-width:1200px) {
+    form {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width:1100px) {
+    form {
+        margin-left: 17%;
     }
 }
 
@@ -164,7 +196,8 @@ footer a {
 
 @media (max-width:840px) {
     form {
-        margin-left: 20%;
+        margin-left: 13%;
+        margin-bottom: 8%;
     }
     #all {
         display: inline-block;
@@ -173,57 +206,137 @@ footer a {
     }
 }
 
-@media (max-width:740px) {
+@media (max-width:780px) {
     form {
-        margin-left: 15%;
+        margin-left: 9%;
+        margin-bottom: 12%;
     }
 }
 
-@media (max-width:620px) {
+@media (max-width:700px) {
     form {
-        margin-left: 5%;
+        margin-left: 6%;
+        margin-bottom: 12%;
     }
 }
 
-@media (max-width:550px) {
+@media (max-width:650px) {
     form {
-        margin-left: 25%;
+        margin-left: 2%;
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width:600px) {
+    form {
+        margin-left: 12%;
+        margin-bottom: 45%;
     }
     form input {
-        width: 100px;
+        width: 300px;
     }
     form label {
-        font-size: 15px;
+        font-size: 20px;
     }
     form textarea {
-        width: 140px;
-        height: 50px;
+        width: 340px;
+        height: 90px;
     }
-     ::placeholder {
-        color: red;
+    form input {
+        width: 340px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    form input:hover {
+        border-bottom: 5px solid #686ae7;
+        height: 40px;
+        width: 360px;
+        transition: ease 0.9s;
+    }
+    form textarea:hover {
+        border-bottom: 5px solid #686ae7;
+        width: 360px;
+        height: 110px;
+        transition: ease 0.9s;
+    }
+}
+
+@media (max-width:520px) {
+    form {
+        margin-left: 7%;
+    }
+}
+
+@media (max-width:480px) {
+    form {
+        margin-left: 3%;
+    }
+}
+
+@media (max-width:440px) {
+    form {
+        margin-left: 7%;
+    }
+    form input {
+        width: 300px;
+    }
+    form label {
+        font-size: 20px;
+    }
+    form textarea {
+        width: 280px;
+        height: 90px;
+    }
+    form input {
+        width: 280px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    form input:hover {
+        width: 300px;
+    }
+    form textarea:hover {
+        width: 300px;
     }
 }
 
 @media (max-width:400px) {
     form {
-        margin-left: 20;
+        margin-left: 3%;
+    }
+}
+
+@media (max-width:380px) {
+    form {
+        margin-left: 9%;
     }
     form input {
-        width: 100px;
+        width: 300px;
     }
     form label {
-        font-size: 15px;
+        font-size: 20px;
     }
     form textarea {
-        width: 140px;
-        height: 50px;
+        width: 220px;
+        height: 90px;
     }
-     ::placeholder {
-        color: red;
+    form input {
+        width: 220px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    form input:hover {
+        width: 230px;
+    }
+    form textarea:hover {
+        width: 230px;
     }
 }
 
 @media (max-width:330px) {
+    form {
+        margin-left: 4%;
+    }
     footer {
         position: absolute;
         width: 150%;
