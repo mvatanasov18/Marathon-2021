@@ -71,7 +71,7 @@ OR
 
 Paste this line of code in cmd:
 ````
-git clone https://github.com/DHGrudov19/CyberFlame.git
+git clone https://github.com/mvatanasov18/Marathon-2021.git
 ````
 
 ## If you support our project, you can always share it on social media. Pull requests are welcome!
