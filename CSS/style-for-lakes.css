@@ -38,7 +38,7 @@ img {
 }
 
 .item {
-    text-align: center;
+    text-align: left;
     flex-basis: 45%;
     padding: 50px;
     margin-bottom: 30px;
