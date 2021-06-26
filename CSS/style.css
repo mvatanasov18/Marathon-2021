@@ -1,3 +1,6 @@
+@import url("footer.css");
+@import url("navbar.css");
+
 body {
     background-image: url("../pictures/background-index.jpg");
     background-size: 120%;
