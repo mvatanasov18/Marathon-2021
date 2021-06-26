@@ -49,9 +49,9 @@ You can see our presentation here:
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1200px-Visual_Studio_2017_Logo.svg.png"  width = "20"> Visual Studio  <br>
 <img src = "https://heliocentrix.co.uk/wp-content/uploads/2020/04/microsoft-teams-logo-png_480-480.png" width = "20"> Teams <br>
 <img src = "https://brandslogos.com/wp-content/uploads/thumbs/microsoft-powerpoint-2013-logo-vector.svg" width ="20"> PowerPoint <br> 
-<img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.m.wikimedia.org%2Fwiki%2FFile%3AMicrosoft_Word_2013_logo.svg&psig=AOvVaw26TRpeX5OZJi6fek-bVeKm&ust=1624832412850000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPi4m8iqtvECFQAAAAAdAAAAABAI" width= "30"> Word <br>
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Word_2013-2019_logo.svg/2086px-Microsoft_Word_2013-2019_logo.svg.png" width= "30"> Word <br>
 <img src = "https://apps-for-pc.com/wp-content/uploads/2020/02/Phonto-For-PC.png" width= "20"> Phonto <br>
-<img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Ficonscout.com%2Ficon%2Fpaint-net&psig=AOvVaw3eOaJt2SIKlfOG2RllW9az&ust=1624832363689000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJic97CqtvECFQAAAAAdAAAAABAD" width= "20"> Paint.net <br>
+<img src = "https://cdn.iconscout.com/icon/free/png-256/paint-net-569195.png" width= "20"> Paint.net <br>
 
  
 
