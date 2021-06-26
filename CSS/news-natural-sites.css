@@ -8,12 +8,52 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-#all {
-    margin-right: 3.5%;
-}
 
 a {
     text-decoration: none;
+}
+
+.all-news {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 45px;
+    flex-wrap: wrap;
+   
+}
+
+.LinkForMoreInformation
+{
+    height: 50px;
+    width: 150px;
+    color: black;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.news {
+    background-color: white;
+    border-radius: 2%;
+    padding: 3%;
+    margin-top: 5%;
+    flex-basis: 45%;
+    
+}
+
+
+
+p
+{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;    
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 footer a {
