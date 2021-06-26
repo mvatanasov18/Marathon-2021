@@ -6,7 +6,9 @@ body {
     background-attachment: fixed;
 }
 
-
+* {
+    box-sizing: border-box; /* paddings fix */
+}
 /* Links */
 
 a {
@@ -25,11 +27,6 @@ a {
     letter-spacing: 10px;
     text-shadow: 4px 4px #27262685;
 }
-
-#credit-symbol {
-    text-align: center;
-}
-
 
 /* Responsive style */
 
