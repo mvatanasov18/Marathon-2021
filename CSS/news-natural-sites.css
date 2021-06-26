@@ -42,6 +42,7 @@ a {
 
 
 
+
 p
 {
     font-family: 'Libre Baskerville', serif;
@@ -63,41 +64,17 @@ footer a {
 
 /* Text on the left */
 
-#left p {
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Oswald', sans-serif;
-}
 
 
 /* Text on the right */
 
-#right p {
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Oswald', sans-serif;
-}
 
-#credit-symbol {
-    text-align: center;
-}
-
-#left {
-    background-color: white;
-    border-radius: 2%;
-    padding: 3%;
-    margin-top: 5%;
-}
-
-#right {
-    background-color: white;
-    border-radius: 2%;
-    padding: 3%;
-    margin-top: 5%;
-}
 .divimage {
-    overflow: hidden;
-    height: 200px;
-    width: 300px;
+   overflow: hidden;
+    height: 300px;
+    width: 400px;
 }
+
 img {
     width: 100%;
     height: 100%;
@@ -111,29 +88,6 @@ img:hover {
 
 /* responsive style  */
 
-@media (max-width:3000px) {
-    h1 {
-        text-align: center;
-        font-size: 40px;
-        font-family: 'Libre Baskerville', serif;
-        font-family: 'Oswald', sans-serif;
-    }
-    #left {
-        margin-left: 7%;
-        margin-top: 2%;
-        display: inline-block;
-    }
-    
-    #right {
-        margin-left: 7%;
-        margin-bottom: 5%;
-        display: inline-block;
-    }
-    
-    #all {
-        column-count: 2;
-    }
-}
 
 @media(max-width:2200px) {
     #all p {
