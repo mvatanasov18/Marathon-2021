@@ -33,7 +33,7 @@ form textarea {
 }
 
 ::placeholder {
-    color: black;
+    color: red;
 }
 
 #submit {
@@ -73,6 +73,10 @@ form {
     position: relative;
 }
 
+.text-form {
+    text-align: left;
+    color: rgb(207, 204, 204);
+}
 
 
 /* Links */

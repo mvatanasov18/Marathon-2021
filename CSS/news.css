@@ -8,53 +8,12 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+#all {
+    margin-right: 3.5%;
+}
 
 a {
     text-decoration: none;
-}
-
-.all-news {
-    display: flex;
-    justify-content: space-evenly;
-    flex-basis: 45px;
-    flex-wrap: wrap;
-   
-}
-
-.LinkForMoreInformation
-{
-    height: 38px;
-    width: 160px;
-    color: black;
-    background-color: black;
-    border-radius: 1px;
-    border-style: solid;
-}
-
-.news {
-    background-color: white;
-    border-radius: 2%;
-    padding: 3%;
-    margin-top: 5%;
-    flex-basis: 45%;
-    
-}
-
-
-
-
-p
-{
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Oswald', sans-serif;
-    font-size: 23px;    
-}
-
-h1 {
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Oswald', sans-serif;
 }
 
 footer a {
@@ -64,16 +23,41 @@ footer a {
 
 /* Text on the left */
 
+#left p {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+}
 
 
 /* Text on the right */
 
+#right p {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+#credit-symbol {
+    text-align: center;
+}
+
+#left {
+    background-color: white;
+    border-radius: 2%;
+    padding: 3%;
+    margin-top: 5%;
+}
+
+#right {
+    background-color: white;
+    border-radius: 2%;
+    padding: 3%;
+    margin-top: 5%;
+}
 
 .divimage {
-   overflow: hidden;
-    height: 400px;
-    width: 600px;
-    border-radius: 15px 0px 15px 0px;
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
 }
 
 img {
@@ -82,13 +66,36 @@ img {
     transition-property: width, height;
     transition-duration: 0.5s;
 }
+
 img:hover {
-    width: 620px;
-    height: 420px;
+    width: 320px;
+    height: 220px;
 }
+
 
 /* responsive style  */
 
+@media (max-width:3000px) {
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Oswald', sans-serif;
+    }
+    #left {
+        margin-left: 7%;
+        margin-top: 2%;
+        display: inline-block;
+    }
+    #right {
+        margin-left: 7%;
+        margin-bottom: 5%;
+        display: inline-block;
+    }
+    #all {
+        column-count: 2;
+    }
+}
 
 @media(max-width:2200px) {
     #all p {
@@ -126,7 +133,6 @@ img:hover {
     #left p {
         font-size: 15px;
     }
-    
 }
 
 @media (max-width:910px) {
