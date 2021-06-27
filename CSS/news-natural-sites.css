@@ -23,12 +23,12 @@ a {
 
 .LinkForMoreInformation
 {
-    height: 50px;
-    width: 150px;
+    height: 38px;
+    width: 160px;
     color: black;
     background-color: black;
-    border-radius: 5px;
-
+    border-radius: 1px;
+    border-style: solid;
 }
 
 .news {
@@ -82,8 +82,8 @@ img {
     transition-duration: 0.5s;
 }
 img:hover {
-    width: 320px;
-    height: 220px;
+    width: 420px;
+    height: 320px;
 }
 
 /* responsive style  */
