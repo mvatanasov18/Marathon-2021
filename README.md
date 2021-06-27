@@ -9,7 +9,7 @@
 <br>
 We are making a product about the wetlands in Burgas and the area. <br>
 You can see our presentation here:
-<a href="presentation and documentation/Presentation.pptx" >Presentation</a>
+<a href="Presentation and Documentation/Presentation.pptx" >Presentation</a>
 
 # Table of contents
  
@@ -49,8 +49,9 @@ You can see our presentation here:
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1200px-Visual_Studio_2017_Logo.svg.png"  width = "20"> Visual Studio  <br>
 <img src = "https://heliocentrix.co.uk/wp-content/uploads/2020/04/microsoft-teams-logo-png_480-480.png" width = "20"> Teams <br>
 <img src = "https://brandslogos.com/wp-content/uploads/thumbs/microsoft-powerpoint-2013-logo-vector.svg" width ="20"> PowerPoint <br> 
-<img src = "https://download.logo.wine/logo/Microsoft_Word/Microsoft_Word-Logo.wine.png" width= "30"> Word <br>
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Word_2013-2019_logo.svg/2086px-Microsoft_Word_2013-2019_logo.svg.png" width= "30"> Word <br>
 <img src = "https://apps-for-pc.com/wp-content/uploads/2020/02/Phonto-For-PC.png" width= "20"> Phonto <br>
+<img src = "https://cdn.iconscout.com/icon/free/png-256/paint-net-569195.png" width= "20"> Paint.net <br>
 
  
 
