@@ -58,6 +58,7 @@ a {
     overflow: hidden;
     height: 400px;
     width: 600px;
+    border-radius: 15px 0px 15px 0px;
 }
 
 
